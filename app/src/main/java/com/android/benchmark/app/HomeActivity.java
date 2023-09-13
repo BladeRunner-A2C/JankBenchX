@@ -149,7 +149,7 @@ public class HomeActivity extends AppCompatActivity implements Button.OnClickLis
                         }
                     });
 
-                    success = JankBenchAPI.uploadResults(HomeActivity.this, Constants.BASE_URL);
+                    success = JankBenchAPI.uploadResults(HomeActivity.this, Constants.BASE_URL); // TODO: Change baseURL
 
                     return null;
                 }
